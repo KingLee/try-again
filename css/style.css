@@ -337,6 +337,12 @@ h3.work-two{
 .button{
 	padding:30px;
 	background-color:#EA554E;
+  -webkit-transition:all .5s;transition:all .5s;
+  border-radius: 5px;
+}
+.button:hover{
+  background-color:#9a1212;
+  -webkit-transition:all .5s;transition:all .5s
 }
 a.button {
 	color:white;
