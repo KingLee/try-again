@@ -257,7 +257,8 @@ h4 {
 	display:block;
 	min-height: 100px;
 	display: inline-block;
-	padding: ;
+	margin-bottom:0;
+  clear:both;
 }
 
 .one-left{
@@ -268,7 +269,6 @@ h4 {
 	padding-right:80px;
 }
 .one-right{
-	display:block;
 	float:left;
 	display:inline-block;
 	width:50%;
@@ -343,7 +343,20 @@ a.button {
 	font-weight: 900;
 	text-decoration:none;
 }
-.about-us{
+.contact-section{
+  background-color:#232323;
+  margin-top:-6px;
+  padding-top:120px;
+  padding-bottom:120px;
+}
+.contact{
 	padding-left:80px;
 	padding-right:80px;
+}
+.contact-section h2 {
+  color:white;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: sans-serif;
+
 }
