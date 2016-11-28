@@ -1,0 +1,78 @@
+.col-twoThirds {
+
+  @include bp(medium) {
+    float: left;
+    width: calc(2, 3);
+  }
+
+  .l-fauxTable > & {
+
+    @include bp(medium) {
+      display: table-cell;
+      float: none;
+      vertical-align: top;
+    }
+  }
+  
+}
+
+
+.col-half {
+
+  @include bp(small) {
+    float: left;
+    width: 50%;
+  }
+
+  .l-fauxTable > & {
+
+    @include bp(small) {
+      display: table-cell;
+      float: none;
+      vertical-align: top;
+    }
+  }
+
+}
+
+
+.col-third {
+
+  @include bp(medium) {
+    float: left;
+    width: calc(1, 3);
+  }
+
+  .l-fauxTable > & {
+
+    @include bp(medium) {
+      display: table-cell;
+      float: none;
+      vertical-align: top;
+    }
+  }
+
+}
+
+
+.col-quarter {
+
+  @include bp(small) {
+    float: left;
+    width: 50%;
+  }
+
+  @include bp(medium) {
+    width: 25%;
+  }
+
+  .l-fauxTable > & {
+
+    @include bp(small) {
+      display: table-cell;
+      float: none;
+      vertical-align: top;
+    }
+  }
+
+}

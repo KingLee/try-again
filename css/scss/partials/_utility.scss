@@ -1,0 +1,92 @@
+.u-centeredText {
+  text-align: center;
+}
+
+
+.u-circular {
+  border-radius: 100%;
+}
+
+
+.u-hidden {
+  visibility: hidden;
+}
+
+
+.u-inline {
+  display: inline;
+}
+
+
+.u-inlineBlock {
+  display: inline-block;
+}
+
+
+.u-noBottomMargin {
+  margin-bottom: 0;
+}
+
+
+.u-noBottomPadding {
+  padding-bottom: 0;
+}
+
+
+.u-noSidePadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.u-normalWeight {
+  font-weight: normal;
+}
+
+
+.u-offscreen {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+
+.u-relative {
+  position: relative;
+}
+
+
+.u-undisplayed {
+  display: none;
+}
+
+
+.u-verticalAlignBottom {
+  vertical-align: bottom;
+}
+
+
+.u-verticalAlignMiddle {
+  vertical-align: middle;
+}
+
+
+.u-verticalAlignTop {
+  vertical-align: top;
+}
+
+
+//Clear fix - http://nicolasgallagher.com/micro-clearfix-hack/
+.cf {
+  *zoom: 1;
+
+  &:after {
+    clear: both;
+  }
+  
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+
+}

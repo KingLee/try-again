@@ -1,0 +1,54 @@
+/********************
+** Breakpoints
+********************/
+
+$bp-small:				768;
+$bp-medium:				1024;
+$bp-large:				1200;
+
+/********************
+** Media Queries
+********************/
+
+$mq-small:				"only screen and (min-width: #{$bp-small}px)";
+$mq-medium:				"only screen and (min-width: #{$bp-medium}px)";
+$mq-large:				"only screen and (min-width: #{$bp-large}px)";
+$mq-retina:				"only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx)";
+
+/********************
+** Fonts
+********************/
+
+$baseFontSize:			16;
+$baseLineHeight:		1.5em;
+
+$f-base:				"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+
+$f-primary:				$f-base;
+
+/********************
+** Colors
+********************/
+
+$c-primary:				#000;
+
+$c-secondary:			#000;
+
+$c-tertiary:			#000;
+
+$c-text:				#000;
+
+/********************
+** Paths
+********************/
+
+$p-images:				'../images/';
+
+/********************
+** Images
+********************/
+
+/*
+	Example:
+	$i-headerBg: $p-images + 'header-bg.png';
+*/

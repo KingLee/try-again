@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+
+html {
+  min-height: 100%;
+  font-size: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+body {
+  min-height: 100%;
+  line-height: $baseLineHeight;
+  font-family: $f-base;
+  @include font-size($baseFontSize);
+  color: $c-text;
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+  -moz-user-drag: -moz-none;
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+
+
+a {
+
+  &.h1, &.h2, &.h3, &.h4, &.h5, &.h6 {
+  }
+
+}
+
+
+blockquote {
+}
+
+
+:focus {
+  outline: 0;
+}
+
+
+p {
+  line-height: $baseLineHeight;
+}
+
+
+p + p {
+  margin-top: $baseLineHeight;
+}
+
+
+dl, ol, ul {
+  margin-bottom: $baseLineHeight;
+  line-height: $baseLineHeight;
+}
+
+
+ul, ol {
+  margin: 0 0 $baseLineHeight 0;
+  padding: 0 0 0 $baseLineHeight;
+}
+
+
+li ul, li ol {
+  margin: 0;
+}
+
+
+input, select, textarea {
+  display: block;
+  -webkit-appearance: none;
+}
+
+
+label, .label {
+}
+
+
+@include headers() {
+  display: block;
+  font-weight: normal;
+}
+
+
+h1, .h1 {
+}
+
+
+h2, .h2 {
+}
+
+
+h3, .h3 {
+}
+
+
+h4, .h4 {
+}
+
+
+h5, .h5 {
+}
+
+
+h6, .h6 {
+}

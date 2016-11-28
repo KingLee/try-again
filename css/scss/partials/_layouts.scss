@@ -1,0 +1,24 @@
+.l-centeredContent {
+  text-align: center;
+
+  img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+
+.l-constrained {
+
+  @include bp(small) {
+    margin: 0 auto;
+  }
+
+}
+
+
+.l-fauxTable {
+  display: table;
+  width: 100%;
+}
